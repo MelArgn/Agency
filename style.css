@@ -161,8 +161,8 @@ nav {
   transform: translateY(10%) rotateZ(-8deg) rotateX(-90deg);
   animation: plant-entrance 1.5s ease-in-out 0.5s forwards,
     plant-shake 2.5s infinite ease-in-out alternate-reverse 2s;
-
   transform-origin: bottom;
+  max-height: 90%;
 }
 
 .plant2 {
@@ -204,6 +204,12 @@ nav {
 }
 
 @media screen and (max-width: 842px) {
+    .hero {
+    width: 100%;
+  }
+  .hero-introduction p {
+    padding: 5rem 3rem;
+  }
   .burger {
     position: relative;
     display: block;
