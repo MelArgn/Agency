@@ -204,6 +204,37 @@ nav {
   display: none;
 }
 
+/* About Section */
+
+.about {
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-text {
+  color: white;
+  background: var(--background-color);
+  flex: 2 1 40rem;
+  justify-content: space-around;
+}
+
+.about-image {
+  flex: 1 1 40rem;
+  position: relative;
+}
+
+.about-image h5 {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+}
+
+.about-image {
+  width: 100%;
+  height: 100%;
+}
+
 @media screen and (max-width: 842px) {
   .hero {
     width: 100%;
