@@ -228,11 +228,13 @@ nav {
   position: absolute;
   top: 20%;
   left: 50%;
+  transform: translate(-50%);
 }
 
 .about-image {
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
 @media screen and (max-width: 842px) {
