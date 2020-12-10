@@ -219,12 +219,27 @@ nav {
   justify-content: space-around;
 }
 
+.about-text div {
+  padding: 3rem 8rem;
+}
+
+.about-text h2 {
+  padding: 4rem;
+  font-family: "Vibes", sans-serif;
+}
+
+.about-text h3 {
+  padding: 2rem 0rem;
+  font-family: "Ruhl Medium", sans-serif;
+}
+
 .about-image {
   flex: 1 1 40rem;
   position: relative;
 }
 
 .about-image h5 {
+  letter-spacing: 2rem;
   position: absolute;
   top: 20%;
   left: 50%;
@@ -297,5 +312,9 @@ nav {
   }
   .menu-check:checked ~ .burger span:nth-child(3) {
     transform: rotateZ(-45deg) translateY(-300%);
+  }
+  /* About Section */
+  .about-text div {
+    padding: 3rem 4rem;
   }
 }
