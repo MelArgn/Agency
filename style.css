@@ -343,6 +343,6 @@ nav {
     grid-column: auto;
   }
   .gallery {
-    grid-template-columns: repeat(auto-fit);
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   }
 }
