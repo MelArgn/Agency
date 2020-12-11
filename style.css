@@ -282,6 +282,8 @@ nav {
   background: var(--background-color);
   padding: 5rem 10rem;
   text-align: center;
+  opacity: 0.5;
+  font-family: "Ruhl Medium", sans-serif;
 }
 
 @media screen and (max-width: 842px) {
