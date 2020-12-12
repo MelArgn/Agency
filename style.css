@@ -287,6 +287,8 @@ nav {
   font-family: "Ruhl Medium", sans-serif;
 }
 
+/* Contact Section */
+
 .contact {
   min-height: 90vh;
   display: flex;
@@ -337,6 +339,27 @@ nav {
 }
 
 .contact img {
+  flex: 1 1 40rem;
+}
+
+/* Footer Section  */
+
+footer {
+  background: var(--background-color);
+  color: white;
+  display: flex;
+  padding: 3rem 5%;
+  align-items: center;
+}
+
+footer ul {
+  display: flex;
+  flex: 1 1 40rem;
+  justify-items: space-between;
+  align-items: center;
+}
+
+footer h3 {
   flex: 1 1 40rem;
 }
 
