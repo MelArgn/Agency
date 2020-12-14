@@ -355,12 +355,13 @@ footer {
 footer ul {
   display: flex;
   flex: 1 1 40rem;
-  justify-items: space-between;
+  justify-content: space-between;
   align-items: center;
 }
 
-footer h3 {
-  flex: 1 1 40rem;
+footer h4 {
+  flex: 3 1 40rem;
+  font-size: calc(1.6rem + 1vw);
 }
 
 @media screen and (max-width: 842px) {
