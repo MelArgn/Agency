@@ -297,6 +297,7 @@ nav {
 
 .form-wrapper {
   flex: 3 1 40rem;
+  width: 100%;
 }
 
 .form-wrapper h2 {
@@ -309,11 +310,11 @@ nav {
 }
 
 .form-wrapper label {
-  display: block;
+  display: flex;
 }
 
 .form-wrapper input {
-  display: block;
+  /* display: block; */
   margin: 2rem 0rem;
   /* background: var(--background-color); */
   color: black;
@@ -322,28 +323,29 @@ nav {
   outline: none;
   background: transparent;
   border-bottom: 1px solid gray;
+  width: 60%;
 }
 
 .form-wrapper textarea {
   /* background: var(--background-color); */
   margin: 2rem 0rem;
-  width: 100%;
+  width: 60%;
   color: black;
   border: none;
   outline: none;
   background: transparent;
   border-bottom: 1px solid gray;
-  font-size: var(--text);
+  font-size: 25px;
 }
 
 .form-wrapper button {
-  display: block;
+  /* display: block; */
   margin: 2rem 0rem;
   padding: 1rem 12rem;
   background: var(--special-color);
   color: white;
   border: none;
-  width: 100%;
+  width: 60%;
 }
 
 .contact img {
