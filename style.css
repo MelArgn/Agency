@@ -300,7 +300,7 @@ nav {
 }
 
 .form-wrapper h2 {
-  margin-bottom: 5rem;
+  margin: 5rem 0rem;
 }
 
 .form-wrapper span {
@@ -315,17 +315,25 @@ nav {
 .form-wrapper input {
   display: block;
   margin: 2rem 0rem;
-  background: var(--background-color);
-  color: white;
-  border: none;
+  /* background: var(--background-color); */
+  color: black;
   padding: 1rem;
+  border: none;
+  outline: none;
+  background: transparent;
+  border-bottom: 1px solid gray;
 }
 
 .form-wrapper textarea {
-  background: var(--background-color);
-  color: white;
+  /* background: var(--background-color); */
   margin: 2rem 0rem;
   width: 100%;
+  color: black;
+  border: none;
+  outline: none;
+  background: transparent;
+  border-bottom: 1px solid gray;
+  font-size: var(--text);
 }
 
 .form-wrapper button {
@@ -350,6 +358,7 @@ footer {
   display: flex;
   padding: 3rem 5%;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 footer ul {
@@ -357,11 +366,13 @@ footer ul {
   flex: 1 1 40rem;
   justify-content: space-between;
   align-items: center;
+  padding: 1rem;
 }
 
 footer h4 {
   flex: 3 1 40rem;
   font-size: calc(1.6rem + 1vw);
+  padding: 1rem;
 }
 
 @media screen and (max-width: 842px) {
@@ -440,4 +451,14 @@ footer h4 {
   /* .gallery-head {
     display: none;
   } */
+  .contact img {
+    align-items: center;
+    /* display: none; */
+  }
+  footer ul {
+    order: 2;
+  }
+  footer h4 {
+    order: 1;
+  }
 }
